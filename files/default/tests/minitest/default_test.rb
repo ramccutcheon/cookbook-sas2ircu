@@ -5,7 +5,7 @@ describe_recipe "sas2ircu" do
 
   describe "files" do
     describe "sas2ircu" do
-      let(:cmd) { file node['megaraidcli']['cmd'] }
+      let(:cmd) { file node['sas2ircu']['cmd'] }
 
       it "was installed" do
         cmd.must_exist

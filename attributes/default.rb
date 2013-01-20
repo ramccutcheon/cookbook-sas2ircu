@@ -17,7 +17,7 @@
 # limitations under the License.
 #
 
-default['sas2ircu']['url'] = "ftp://download2.boulder.ibm.com/ecc/sar/CMA/XSA/ibm_sw_mpt2sas_sas2ircu-10.00.00.00_linux_32-64.zip"
+default['sas2ircu']['url'] = "http://download2.boulder.ibm.com/sar/CMA/XSA/ibm_sw_mpt2sas_sas2ircu-10.00.00.00_linux_32-64.zip"
 default['sas2ircu']['checksum'] = "26d93d528db377a43050f84019ecba63ca9798797c6b480dbd5706c78008bbd8"
 default['sas2ircu']['dir'] = ::File.join ::File::SEPARATOR, "opt", "sas2ircu"
 default['sas2ircu']['cmd'] = ::File.join node['sas2ircu']['dir'], "sas2ircu"
