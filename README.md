@@ -12,11 +12,10 @@ Requirements
 Attributes
 ==========
 
-* default['sas2ircu']['url'] - URL to MegaCLI archive.
-* default['sas2ircu']['checksum'] - MegaCLI checksum.
-* default['sas2ircu']['dir'] - Base directory to install MegaCli.
-* default['sas2ircu']['cmd'] - Path to the MegaCli64 command.
-* default['sas2ircu']['wrapper'] - Wrapper script to make MegaCli work properly under Debian.
+* default['sas2ircu']['url'] - URL to sas2ircu archive.
+* default['sas2ircu']['checksum'] - The sas2ircu checksum.
+* default['sas2ircu']['dir'] - Base directory to install sas2ircu.
+* default['sas2ircu']['cmd'] - Path to the sas2ircu command.
 
 Usage
 =====
