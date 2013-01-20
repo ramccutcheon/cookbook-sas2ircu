@@ -1,0 +1,3 @@
+cookbook "cookbook-sas2ircu" do
+  runtimes []
+end
