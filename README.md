@@ -31,6 +31,13 @@ default
 
 Installs sas2ircu
 
+Testing
+=======
+
+    $ bundle install
+    $ bundle exec berks install
+    $ bundle exec strainer test
+
 License and Author
 ==================
 
