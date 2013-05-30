@@ -1,0 +1,2 @@
+cookbook 'sas2ircu', :path => '/home/sean/src/att-cloud/cookbooks/cookbook-sas2ircu'
+cookbook 'ark', :locked_version => '0.2.2'
