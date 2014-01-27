@@ -34,16 +34,14 @@ Installs sas2ircu
 Testing
 =======
 
-    $ bundle install
-    $ bundle exec berks install
-    $ bundle exec strainer test
+See SilverLining documentation
 
 License and Author
 ==================
 
 Author:: John Dewey (<john@dewey.ws>)
 
-Copyright 2013, John Dewey
+Copyright 2013-2014, John Dewey
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
