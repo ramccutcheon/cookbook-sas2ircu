@@ -4,7 +4,7 @@
       "path": "."
     },
     "ark": {
-      "locked_version": "0.7.0"
+      "locked_version": "0.8.0"
     }
   }
 }
