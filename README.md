@@ -1,7 +1,7 @@
 Description
 ===========
 
-Installs sas2ircu
+Installs SAS-2 Integrated RAID Configuration Utility (sas2ircu)
 
 Requirements
 ============
@@ -30,11 +30,6 @@ default
 ----
 
 Installs sas2ircu
-
-Testing
-=======
-
-See SilverLining documentation
 
 License and Author
 ==================
