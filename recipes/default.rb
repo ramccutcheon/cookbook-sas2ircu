@@ -1,4 +1,4 @@
-#
+# encoding: UTF-8
 # Cookbook Name:: sas2ircu
 # Recipe:: default
 #
@@ -17,19 +17,19 @@
 # limitations under the License.
 #
 
-package "unzip" do
+package 'unzip' do
   action :upgrade
 end
 
-package "libsysfs2" do
+package 'libsysfs2' do
   action :upgrade
 end
 
-ark "sas2ircu" do
-  url      node['sas2ircu']['url']
+ark 'sas2ircu' do
+  url node['sas2ircu']['url']
   checksum node['sas2ircu']['checksum']
-  creates  "sas2ircu"
-  path     node['sas2ircu']['dir']
+  creates 'sas2ircu'
+  path node['sas2ircu']['dir']
 
   action :cherry_pick
 end

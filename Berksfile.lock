@@ -1,10 +1,16 @@
-{
-  "sources": {
-    "sas2ircu": {
-      "path": "."
-    },
-    "ark": {
-      "locked_version": "0.8.0"
-    }
-  }
-}
+DEPENDENCIES
+  sas2ircu
+    path: .
+    metadata: true
+
+GRAPH
+  7-zip (1.0.2)
+    windows (>= 1.2.2)
+  ark (0.9.0)
+    7-zip (>= 0.0.0)
+    windows (>= 0.0.0)
+  chef_handler (1.1.6)
+  sas2ircu (0.1.3)
+    ark (>= 0.0.0)
+  windows (1.31.0)
+    chef_handler (>= 0.0.0)

@@ -11,3 +11,7 @@ recipe           'sas2ircu', 'Installs sas2ircu'
 supports         'ubuntu', '>= 12.04'
 
 depends          'ark'
+
+%w( centos debian ubuntu ).each do |os|
+  supports os
+end
